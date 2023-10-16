@@ -8,7 +8,7 @@ class Home(HomeTemplate):
 
     # Any code you write here will run before the form opens.
   def link_1_click(self, **event_args):
-    open_form('ABOUTUS')
+    open_form('Aboutus')
 
   
 
