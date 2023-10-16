@@ -1,7 +1,8 @@
 allow_embedding: false
-package_name: Classic_1
-name: Classic 1
-startup_form: Form1
+package_name: P2P_Lending_App
+startup: {type: form, module: Home}
+name: P2P Lending App
+startup_form: null
 runtime_options:
   version: 2
   client_version: '3'
