@@ -1,0 +1,54 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:dashboard.html'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components: []
+- type: ColumnPanel
+  properties: {role: card}
+  name: card_1
+  layout_properties: {slot: title}
+- type: Image
+  properties: {}
+  name: image_1
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_9
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_8
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_7
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_6
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_5
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_4
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_3
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_2
+  layout_properties: {slot: nav-right}
+- type: Link
+  properties: {}
+  name: link_1
+  layout_properties: {slot: nav-right}
